@@ -1,0 +1,96 @@
+// Specific CSS for your home-page
+.container {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: block;
+}
+.main-container {
+    background-color: #614A67;
+    width: 100%
+}
+
+//animations
+body {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #614A67;
+  }
+
+
+  .col-12 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  
+  .box-a {
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 40vh;
+    border-radius: 2px;
+    color: #614A67;
+    text-align: center;
+    padding: 25px 50px 75px 20px;
+    background: #DDAC92;
+  }
+  
+  .box-b {
+    width: 100%;
+    height: 40vh;
+    border-radius: 2px;
+    color: #614A67;
+    text-align: center;
+    margin-right: 0%;
+    padding: 25px 50px 75px 20px;
+    background: #A0D2DB;
+  }
+
+  .box-c {
+    width: 100%;
+    height: 40vh;
+    border-radius: 2px;
+    color: #614A67;
+    text-align: center;
+    margin-right: 0%;
+    padding: 25px 50px 75px 20px;
+    background: #E7F06A;
+  }
+
+
+  // Smallest device
+  @media (min-width: 100px) and (max-width: 575px) {
+    .main-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    .main-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .main-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .main-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .main-container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
