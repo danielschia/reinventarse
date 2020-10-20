@@ -57,3 +57,5 @@ gem 'font-awesome-sass', '~> 5.13.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 gem 'pg'
+
+gem 'dotenv-rails', groups: [:development, :test]
